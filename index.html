@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REPLACE THIS WITH YOUR NAME | IT Student Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVIGATION BAR
+  ========================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <!-- PUT MY NAME HERE (short version, e.g. initials or first name) -->
+        <span class="logo-bracket">&lt;</span>Faxy_Dev<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active-link">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       HERO SECTION
+  ========================================================== -->
+  <section id="home" class="hero">
+    <div class="hero-glow" id="heroGlow"></div>
+    <div class="hero-container">
+
+      <div class="hero-text reveal" style="--d:0s">
+        <p class="hero-greeting">Hello, my name is</p>
+
+        <h1 class="hero-name">
+          Arfaxad Mabilin
+        </h1>
+
+        <h2 class="hero-role">3rd Year Information Technology Student</h2>
+
+        <!-- WRITE MY BIO HERE (short 2-3 sentence intro for the hero section) -->
+        <p class="hero-intro">
+         Hi! Im Arfaxad a 3rd-year Information Technology student passionate about
+         web development, programming, and creating useful digital solutions. I enjoy learning
+          new technologies and improving my skills through academic and personal projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <!-- Optional quick social icons in the hero -->
+        <div class="hero-socials">
+          <!-- REPLACE '#' WITH YOUR ACTUAL PROFILE LINKS -->
+          <a href="#" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap reveal" style="--d:0.15s">
+        <div class="hero-ring"></div>
+        <div class="hero-photo-frame">
+          <!-- PUT MY PROFILE PHOTO HERE -->
+          <!-- Replace the src below with the path to your own photo, e.g. "images/profile.jpg" -->
+          <img src="Arfaxad 2.png" alt="My profile photo" class="hero-photo">
+        </div>    
+
+        <!-- These small floating badges show your current stack -- edit the icon + text on each, add/remove as needed -->
+        <div class="orbit-badge b1"><i class="fa-brands fa-react"></i> React</div>
+        <div class="orbit-badge b2"><i class="fa-brands fa-java"></i> Java</div>
+        <div class="orbit-badge b3"><i class="fa-solid fa-database"></i> MySQL</div>
+        <div class="orbit-badge b4"><i class="fa-brands fa-js"></i> JS</div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll to About section">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- =========================================================
+       ABOUT ME SECTION
+  ========================================================== -->
+  <section id="about" class="section about-section">
+    <div class="section-container">
+      <p class="section-eyebrow reveal">About Me</p>
+      <h2 class="section-title reveal">Get to know me a little better</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <!-- WRITE MY BIO HERE (full version for the About Me section) -->
+          <p>
+            I'm a 3rd year Information Technology student
+            with a strong interest in building software that solves everyday problems. I enjoy
+            the process of taking a project from a blank page to something people can actually
+            use from designing the interface to writing the logic that powers it.
+          </p>
+          <p>
+            My interests in IT include web development,
+            databases, and increasingly cloud computing and basic cybersecurity practices.
+            I like courses and projects that let me build something hands-on rather than just
+            read theory.
+          </p>
+          <p>
+            After graduating, my goal is to work as a
+            full-stack developer at a company where I can keep learning, and eventually take on
+            more responsibility in designing systems, not just building features.
+          </p>
+
+          <ul class="about-quick-facts">
+            <!-- REPLACE THESE QUICK FACTS WITH YOUR OWN -->
+            <li><i class="fa-solid fa-graduation-cap"></i> BS Information Technology, 3rd Year</li>
+            <li><i class="fa-solid fa-location-dot"></i> Legazpi City, Philippines</li>
+            <li><i class="fa-solid fa-envelope"></i>arfaxadmabilin01@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="about-goals reveal">
+          <div class="goal-card">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Interests</h3>
+            <!-- ADD YOUR OWN INTERESTS HERE -->
+            <p>Web Development, Databases, UI/UX, Cloud Computing</p>
+          </div>
+          <div class="goal-card">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Goal</h3>
+            <!-- REPLACE WITH YOUR OWN GOAL -->
+            <p>Land an internship as a junior web developer within the next year</p>
+          </div>
+          <div class="goal-card">
+            <i class="fa-solid fa-rocket"></i>
+            <h3>Future Career</h3>
+            <!-- REPLACE WITH YOUR OWN CAREER PLAN -->
+            <p>Full-Stack Developer / Software Engineer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SKILLS SECTION
+  ========================================================== -->
+  <section id="skills" class="section skills-section">
+    <div class="section-container">
+      <p class="section-eyebrow reveal">Skills</p>
+      <h2 class="section-title reveal">What I've been working with</h2>
+
+      <!-- ADD MY SKILLS HERE -->
+      <!-- Each .skill-category is a group. Copy a .skill-item block to add more skills. -->
+      <div class="skills-grid">
+
+        <!-- Programming Languages -->
+        <div class="skill-category reveal" style="--d:0s">
+          <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+
+          <div class="skill-item">
+            <div class="skill-item-top"><span>Java</span><span class="skill-percent">50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>Python</span><span class="skill-percent">20%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="20"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>C#</span><span class="skill-percent">35%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="35"></div></div>
+          </div>
+          <!-- COPY A .skill-item BLOCK ABOVE TO ADD MORE LANGUAGES -->
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-category reveal" style="--d:0.08s">
+          <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
+
+          <div class="skill-item">
+            <div class="skill-item-top"><span>HTML &amp; CSS</span><span class="skill-percent">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>JavaScript</span><span class="skill-percent">50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>React</span><span class="skill-percent">15%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="15"></div></div>
+          </div>
+          <!-- COPY A .skill-item BLOCK ABOVE TO ADD MORE WEB SKILLS -->
+        </div>
+
+        <!-- Database Skills -->
+        <div class="skill-category reveal" style="--d:0.16s">
+          <h3><i class="fa-solid fa-database"></i> Database</h3>
+
+          <div class="skill-item">
+            <div class="skill-item-top"><span>MySQL</span><span class="skill-percent">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>MongoDB</span><span class="skill-percent">10%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="10"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>Firebase</span><span class="skill-percent">10%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="10"></div></div>
+          </div>
+          <!-- COPY A .skill-item BLOCK ABOVE TO ADD MORE DATABASE SKILLS -->
+        </div>
+
+        <!-- Tools & Technologies -->
+        <div class="skill-category reveal" style="--d:0.24s">
+          <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools &amp; Technologies</h3>
+
+          <div class="skill-item">
+            <div class="skill-item-top"><span>Git &amp; GitHub</span><span class="skill-percent">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>VS Code</span><span class="skill-percent">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-top"><span>Figma</span><span class="skill-percent">50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+          </div>
+          <!-- COPY A .skill-item BLOCK ABOVE TO ADD MORE TOOLS -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PROJECTS SECTION
+  ========================================================== -->
+  <section id="projects" class="section projects-section">
+    <div class="section-container">
+      <p class="section-eyebrow reveal">Projects</p>
+      <h2 class="section-title reveal">Things I've built</h2>
+
+      <!-- ADD MY PROJECTS HERE -->
+      <!-- Copy a whole .project-card block to add another project -->
+      <div class="projects-grid">
+
+        <div class="project-card reveal" style="--d:0s">
+          <div class="project-image">
+            <!-- PUT PROJECT IMAGE HERE (replace src with a screenshot of your project) -->
+            <img src="project 1.png" alt="Project 1 screenshot">
+          </div>
+          <div class="project-body">
+            <!-- REPLACE WITH YOUR PROJECT NAME -->
+            <h3>BrewPOS – Coffee Shop Point of Sale System</h3>
+            <!-- REPLACE WITH YOUR PROJECT DESCRIPTION -->
+            <p>A modern POS system designed for coffee shops to manage sales, orders, inventory, and different user roles efficiently.</p>
+
+            <div class="project-tags">
+              <!-- REPLACE WITH TECHNOLOGIES YOU USED -->
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>PHP</span>
+            </div>
+
+            <div class="project-links">
+              <!-- REPLACE '#' WITH YOUR ACTUAL GITHUB LINK -->
+              <a href="https://github.com/arfaxadmabilin01-creator/BrewPOS" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+              <!-- REPLACE '#' WITH YOUR ACTUAL LIVE DEMO LINK -->
+              <a href="#" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--d:0.1s">
+          <div class="project-image">
+            <img src="project 2.jpg" alt="Project 2 screenshot">
+          </div>
+          <div class="project-body">
+            <h3>VISITE - Journey to new frontiers. Journey to NOTO Nature Park.</h3>
+            <p>A travel and tourism website created to showcase the beauty and attractions of NOTO Nature Park. It provides visitors with an engaging way to explore the destination and discover its natural attractions.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--d:0.2s">
+          <div class="project-image">
+            <img src="project 3.jpg" alt="Project 3 screenshot">
+          </div>
+          <div class="project-body">
+            <h3>Docy – Documentation and Support Website</h3>
+            <p>A clean and user-friendly documentation website that helps users find guides, support resources, and recommended topics easily.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COPY A .project-card BLOCK ABOVE TO ADD MORE PROJECTS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       EDUCATION SECTION
+  ========================================================== -->
+  <section id="education" class="section education-section">
+    <div class="section-container">
+      <p class="section-eyebrow reveal">Education</p>
+      <h2 class="section-title reveal">My academic background</h2>
+
+      <div class="education-timeline">
+      <div class="education-card reveal">
+        <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="education-details">
+          <!-- REPLACE WITH YOUR SCHOOL/UNIVERSITY NAME -->
+          <h3>CCDI-Computer Communication Development Institute</h3>
+          <!-- REPLACE WITH YOUR COURSE -->
+          <p class="education-course">Bachelor of Science in Information Technology</p>
+          <!-- REPLACE WITH YOUR YEAR LEVEL / DATES -->
+          <p class="education-year">3rd Year • Expected Graduation: 2027</p>
+
+          <!-- ADD YOUR ACADEMIC ACHIEVEMENTS HERE -->
+          <ul class="education-achievements">
+            <li><i class="fa-solid fa-star"></i> Dean's Lister, 2nd Semester A.Y. 2024-2025</li>
+            <li><i class="fa-solid fa-star"></i> Member, IT Student Society</li>
+            <li><i class="fa-solid fa-star"></i> 2nd Place, Inter-School Coding Challenge</li>
+            
+            <!-- COPY A <li> LINE ABOVE TO ADD MORE ACHIEVEMENTS -->
+          <div class="education-timeline"></div>    
+          <div class="education-card reveal">
+          <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+           <div class="education-details">
+            <h3>Cumadcad National Highschool</h3>
+            <p class="education-strand">General Academic Strand</p>
+            <p class="education-year">Grade 11-12, S.Y 2022-2024</p>
+
+          <!-- ADD YOUR ACADEMIC ACHIEVEMENTS HERE -->
+          <ul class="education-achievements">
+            <li><i class="fa-solid fa-star"></i> With Honor A.Y. 2022-2024</li>
+            <li><i class="fa-solid fa-star"></i> Creative Team Member </li>
+            <li><i class="fa-solid fa-star"></i> Art Competition Participant</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <!-- COPY THE WHOLE .education-card BLOCK ABOVE (staying inside .education-timeline) IF YOU WANT TO LIST MORE SCHOOLS (e.g. Senior High) -->
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CERTIFICATES / ACHIEVEMENTS SECTION
+  ========================================================== -->
+  <section id="certificates" class="section certificates-section">
+    <div class="section-container">
+      <p class="section-eyebrow reveal">Certificates &amp; Achievements</p>
+      <h2 class="section-title reveal">Extra learning outside the classroom</h2>
+
+      <!-- ADD MY CERTIFICATES HERE -->
+      <!-- Copy a whole .certificate-card block to add another certificate -->
+      <div class="certificates-grid">
+
+        <div class="certificate-card reveal" style="--d:0s">
+          <!-- PUT CERTIFICATE IMAGE HERE (replace src with your actual certificate image) -->
+          <img src="certifiate 1.jpg" alt="Certificate 1">
+          <div class="certificate-body">
+            <!-- REPLACE WITH CERTIFICATE NAME -->
+            <h3>1st/2nd Semester With Honor</h3>
+            <!-- REPLACE WITH ISSUING ORGANIZATION -->
+            <p class="certificate-issuer">CNHS</p>
+            <!-- REPLACE WITH DATE RECEIVED -->
+            <p class="certificate-date">Issued Feb 23, 2024</p>
+          </div>
+        </div>
+
+        <div class="certificate-card reveal" style="--d:0.1s">
+          <img src="certificate 2.jpg" alt="Certificate 2">
+          <div class="certificate-body">
+            <h3>Folk Dance Participation, 2nd Runner-Up</h3>
+            <p class="certificate-issuer">CCDI</p>
+            <p class="certificate-date">Issued Nov 30, 2025</p>
+          </div>
+        </div>
+
+        <div class="certificate-card reveal" style="--d:0.2s">
+          <img src="certificate 3.png" alt="Certificate 3">
+          <div class="certificate-body">
+            <h3>UI/UX Design Achievement</h3>
+            <p class="certificate-issuer">CNHS IT Department</p>
+            <p class="certificate-date">Feb 25, 2024</p>
+          </div>
+        </div>
+
+        <!-- COPY A .certificate-card BLOCK ABOVE TO ADD MORE CERTIFICATES -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CONTACT SECTION
+  ========================================================== -->
+  <section id="contact" class="section contact-section">
+    <div class="section-container">
+      <p class="section-eyebrow reveal">Contact</p>
+      <h2 class="section-title reveal">Let's connect</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-intro">
+            I'm currently open to internship opportunities, group projects, and just meeting
+            other people in tech. Feel free to reach out through any of these!
+          </p>
+
+          <!-- PUT MY CONTACT INFORMATION HERE -->
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <!-- REPLACE WITH YOUR EMAIL -->
+              <a href="https://www.arfaxadmabili01@gmail.com">https://www.arfaxadmabili01@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <!-- REPLACE '#' WITH YOUR GITHUB PROFILE LINK -->
+              <a href="https://github.com/arfaxadmabilin01-creator" target="_blank">https://github.com/arfaxadmabilin01-creator</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin"></i>
+              <!-- REPLACE '#' WITH YOUR LINKEDIN PROFILE LINK -->
+              <a href="#" target="_blank">linkedin.com/in/yourusername</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-facebook"></i>
+              <!-- REPLACE '#' WITH YOUR FACEBOOK PROFILE LINK -->
+              <a href="https://www.facebook.com/arfaxad.mabilin.2025" target="_blank">https://www.facebook.com/arfaxad.mabilin.2025</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <!-- This form currently shows a confirmation message using JavaScript only.
+               To actually receive messages, connect it to a form service (like Formspree)
+               or your own backend, and set the "action" attribute below. -->
+          <div class="form-group">
+            <label for="formName">Name</label>
+            <input type="text" id="formName" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="formEmail">Email</label>
+            <input type="email" id="formEmail" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="formMessage">Message</label>
+            <textarea id="formMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-name">
+       Arfaxad Mabilin
+      </p>
+
+      <div class="footer-socials">
+        <!-- REPLACE '#' WITH YOUR ACTUAL PROFILE LINKS -->
+        <a href="https://github.com/arfaxadmabilin01-creator" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/arfaxad.mabilin.2025" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.arfaxadmabili01@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+      <p class="footer-copyright">
+        &copy; <span id="currentYear"></span> Arfaxad Mabilin. All rights reserved.
+        <!-- The name above updates automatically -- edit it in index.html and footer-name too -->
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
